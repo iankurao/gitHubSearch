@@ -6,6 +6,17 @@ This project was generated with Angular CLI. It is an online website that allows
 
 #### By **Ian Kurao**
 
+
+
+## BDD
+
+| Behavior- Our program should handle: | Input Example- When it receives: | Output Example- It should return: |
+| :-------------: | :-------------: | :-------------: |
+| Search for user | Input "iankurao" | Display user: "iankurao" |
+| Search for repositories | Input "iankurao/portfolio" | Display user repository: "portfolio" |
+
+
+
 ## Setup/Installation Requirements
 
 * Fork the data onto your own personal repository.
