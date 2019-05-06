@@ -1,27 +1,35 @@
-# GitHubSearch
+# GitHub Searcher
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+#### Description, 02/2019
 
-## Development server
+This project was generated with Angular CLI. It is an online website that allows a person to search for users at gitHub using their usernames. It also allows one to search for a specific repository on gitHub.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By **Ian Kurao**
 
-## Code scaffolding
+## Setup/Installation Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Fork the data onto your own personal repository.
+* Clone project
+* run `'ng install'` on terminal
+* run `'ng serve'` on terminal
+* To access the live website, click on this url https://iankurao.github.io/gitHubSearch
 
-## Build
+## Known Bugs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+No Bugs
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* HTML for webpage design.
+* CSS for styling webpage.
+* Typescript for Backend Development.
 
-## Running end-to-end tests
+## Dependencies
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Angular CLI
 
-## Further help
+## Support and contact details
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Contact me using:
+* Email: kuraoian@gmail.com
+
