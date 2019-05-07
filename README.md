@@ -48,4 +48,4 @@ Angular CLI
 ### License and Copyright details
 
 The MIT License (MIT)
-Copyright (c) 2019**Ian Kurao**
+Copyright (c) 2019 **Ian Kurao**
