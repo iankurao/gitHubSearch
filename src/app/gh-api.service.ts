@@ -11,18 +11,17 @@ export class GhApiService {
 
   private username = "iankurao";
   constructor(private http: HttpClient) { 
-    console.log("github service started...");
+    console.log("gh service started...");
   }
 
   newUsername(username:string){
     this.username = username;
   }
   getUser(): Observable<Repository[]>{  
-    return this.http.get<Repository[]>(environment.url+'users/'+this.username+'?access_token='+environment.token);
-  
+    return this.http.get<Repository[]>(environment.url + this.username + environment.token);
   }
   getRepo(): Observable<Repository[]>{  
-    return this.http.get<Repository[]>(environment.url+'users/'+this.username+'/repos?access_token='+environment.token);
+    return this.http.get<Repository[]>(environment.url + this.username +  environment.token);
   
   }
   
